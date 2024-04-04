@@ -14,23 +14,23 @@ body{
     align-items: center;
     border-bottom: 1px solid #BABABA;
 }
-.menu{
-    display: flex;
-    width:45%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 5%;
-}
-#principal div a{
-    font-family: 'Inter';
-    font-size: 25px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-}
-    #principal div a:hover{
-        color: #CCCCCC;
+    .menu{
+        display: flex;
+        width:45%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%;
     }
+    #principal div a{
+        font-family: 'Inter';
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+        #principal div a:hover{
+            color: #CCCCCC;
+        }
 #principal button{
     margin-right: 5%;
     background-color: #0C70F2;
@@ -42,4 +42,5 @@ body{
     font-weight: 600;
     color: white;
     box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
 }
